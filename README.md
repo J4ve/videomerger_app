@@ -1,3 +1,8 @@
+> ⚠️ **Project Status**: Development on this version has been formally discontinued.  
+> The refactored implementation, developed using an updated technology stack and improved architecture, is available here:  
+> [videomerger_app_revamp](https://github.com/J4ve/videomerger_app_revamp)
+
+
 # 🎮 Video Merger and Uploader
 
 An open-source desktop tool for streamers and video editors to automatically upload merged clips and VODs to YouTube: no manual renaming, no manual editing, no repetitive settings, and optional automatic highlight compilations.
