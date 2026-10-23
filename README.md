@@ -313,6 +313,19 @@ This section highlights the major features implemented in the application. Each 
 
 ---
 
+## 📈 Results
+
+This version works as a desktop app that selects clips, merges them with FFmpeg and uploads the result to YouTube with metadata.
+
+- The demo at the top of this README (`docs/demo/featuresv2.gif`) shows the app in use.
+- Every item in the manual test checklist under [Testing & Quality Assurance](#testing--quality-assurance) is checked, including the merge with progress tracking, the YouTube upload, guest restrictions and admin user management.
+- Recorded run of `tests/test_audit_log_viewer.py`: 13 passed (`docs/AUDIT_LOG_IMPLEMENTATION_SUMMARY.md`).
+- Recorded run of `tests/test_metadata_presets.py`: 14 passed, 2 Firebase integration tests deselected (`docs/METADATA_PRESETS_COMPLETE.md`).
+- `tests/test_video_processor.py` covers the FFmpeg merge, cancel and progress callbacks. Run all tests with `pytest tests/ -v`.
+- Not finished: the Milestone 7: Distribution items (CI/CD pipeline, v1.0 release) are unchecked, and premium purchases use a mock payment gateway.
+
+---
+
 ## 🎓 Academic Course Compliance
 
 This project fulfills requirements for three college courses:
